@@ -22,5 +22,6 @@
     "react-apexcharts": "^1.8.0",
     "react-dom": "^19.2.0",
     "tailwindcss": "^4.1.16"
-  }
+  },
+  "packageManager": "yarn@4.10.3"
 }
