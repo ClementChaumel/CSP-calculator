@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "@hellocarbo/lasagne/style.css";
+@source "../../node_modules/@hellocarbo/lasagne";
+
+@plugin "tailwindcss-radix";
+
+@layer base {
+  html {
+    font-family: Poppins, sans-serif;
+  }
+
+  *,
+  html {
+    scroll-behavior: smooth !important;
+    text-wrap-style: pretty;
+  }
+}
