@@ -146,7 +146,7 @@ const calculateRevenueArray = ({
         for (let i = 1; i <= 30; i++) {
           revenueArray.push({
             salary: salaryNet,
-            indemnity: i === 1 || i === 12 ? remainingASPValue / 2 : 0,
+            indemnity: i === 1 || i === 12 ? remainingASPValue / 4 : 0,
           });
         }
       } else {
